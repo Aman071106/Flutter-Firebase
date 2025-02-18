@@ -1,6 +1,6 @@
 import 'dart:developer';
 import 'package:flutter/material.dart';
-import 'package:flutter_with_firebase/features/authentication/AuthFunctions/AuthenticationFunctions.dart';
+import 'package:flutter_with_firebase/Functions/AuthFunctions/AuthenticationFunctions.dart';
 import 'package:flutter_with_firebase/features/authentication/Authui/fadeanimation.dart';
 
 class Signup extends StatefulWidget {
