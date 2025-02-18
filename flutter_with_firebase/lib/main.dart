@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_with_firebase/features/authentication/Authui/AuthenticationForm.dart';
 import 'package:flutter_with_firebase/firebase_options.dart';
 
 void main() async {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: Center(
-          child: const Text("This is a demo for firebase usage in flutter")),
+          child: Signup()),
     );
   }
 }
