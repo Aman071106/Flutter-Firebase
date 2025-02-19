@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_with_firebase/features/Screens/DatabaseView.dart';
 import 'package:flutter_with_firebase/features/Screens/mongoscreen.dart';
 import 'package:flutter_with_firebase/features/authentication/Authui/AuthenticationForm.dart';
+import 'package:flutter_with_firebase/features/authentication/googleAuth.dart';
 import 'package:flutter_with_firebase/firebase_options.dart';
 
 void main() async {
@@ -23,6 +24,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: UserForm());
+        home: Googleauth());
   }
 }
