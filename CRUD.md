@@ -72,3 +72,25 @@ dependencies:
 ## Debugging
 - **RangeError (Stack Overflow)**: Understood and resolved during development.
 
+# Firebase Integration in Flutter
+
+## 🔥 Step-by-Step Flowchart
+
+```mermaid
+graph TD
+    A[Create Firebase Project] --> B[Configure Firebase in Flutter]
+    B --> C[Extra Config for Web]
+    B --> D[Test Firebase in main.dart]
+
+    D --> E[Create Model]
+    E --> F[Test Model in main.dart]
+
+    F --> G[Create DataService]
+    G --> H[Test DataService in main.dart]
+
+    H --> I[Create Provider]
+    I --> J[Test Provider in main.dart]
+
+    J --> K[Create UI]
+    K --> L[Test UI in main.dart]
+```
